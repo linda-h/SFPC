@@ -1,0 +1,73 @@
+h1{
+    text-align:center;
+    font-family:James Almacen;
+}
+
+h6{
+    background-color: white;
+    color:white;
+}
+
+body{
+    background-color:#FDCFE0;
+}
+
+.button {
+    background-color: #6699ff;
+    border: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px;
+    font-family: James Almacen;
+    border-style:dashed;
+
+}
+
+/*.button1 a:link
+.button2 a:link
+.button5 a:link*/
+
+img{
+    max-width: 35%;
+    height: 35%;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#6699ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-family:James Almacen;
+}
+
+li a:hover:not(.active) {
+    background-color:powderblue;
+}
+
+.active {
+    background-color: #4CAF50;
+}

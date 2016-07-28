@@ -1,0 +1,75 @@
+.button {
+    background-color: #9E3B3B;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family:James Almacen;
+    border-style:dotted;
+    /* how to center the buttons*/
+}
+.but{
+    background-color:#9E3B3B;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    background-color:powderblue;
+}
+
+h1 {
+    color:black;
+    text-align:center;
+    size:40%;
+    font-family:James Almacen;
+}
+
+h6{
+    background-color: black;
+}
+
+img{
+    max-width: 35%;
+    height: 35%;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#a74e4e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-family:James Almacen;
+}
+
+li a:hover:not(.active) {
+    background-color:#FDCFE0;
+}
+
+.active {
+    background-color: #4CAF50;
+}
