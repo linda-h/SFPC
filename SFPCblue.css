@@ -23,6 +23,7 @@
 
 body {
     background-color:powderblue;
+    font-family:James Almacen;
 }
 
 h1 {
@@ -44,7 +45,6 @@ img{
 
 
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,14 +53,13 @@ ul {
     background-color:#a74e4e;
 }
 
-li {
-    float: left;
-}
+/*li {
+    color:white;
+}*/
 
 li a {
     display: block;
-    color: white;
-    text-align: center;
+/*    text-align: center;*/
     padding: 7px 16px;
     text-decoration: none;
     font-family:James Almacen;
@@ -73,3 +72,10 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
+ol {
+    text-decoration: underline;
+    color:darkblue; 
+}
+
+/*home and the top bar is also blue...*/

@@ -10,6 +10,7 @@ h6{
 
 body{
     background-color:#FDCFE0;
+    font-family:James Almacen;
 }
 
 .button {
@@ -30,9 +31,6 @@ body{
 
 }
 
-/*.button1 a:link
-.button2 a:link
-.button5 a:link*/
 
 img{
     max-width: 30%;
@@ -40,7 +38,10 @@ img{
 }
 
 
-
+ol {
+    color:#6699ff;
+    text-decoration: underline;
+}
 
 
 ul {
@@ -50,15 +51,15 @@ ul {
     overflow: hidden;
     background-color:#6699ff;
 }
-
+/*
 li {
     float: left;
 }
-
+*/
 li a {
     display: block;
     color: white;
-    text-align: center;
+/*    text-align: center;*/
     padding: 7px 16px;
     text-decoration: none;
     font-family:James Almacen;
