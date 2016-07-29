@@ -1,61 +1,24 @@
-counter = 0;
 
-function expand(){
-	var a = document.getElementById("WhoWeAre");	
-	if (counter%2 == 0) {
-		a.style.display='block';
-		// document.getElementById("button1").innerHTML = "Hide";
-	} else {
-		a.style.display='none';
-		// document.getElementById("button1").innerHTML = "Who We Are...";
-	}
-counter+=1;
-}
+var arrayImg = new Array();
+arrayImg[0] = "empathy.jpg";
+arrayImg[1] = "alice.jpg";
+arrayImg[2] = "opportunities.jpg";
+arrayImg[3] = "travel.jpg";
+arrayImg[4] = "somebody.jpg";
+arrayImg[5] = "workToBecome.jpg";
+arrayImg[6] = "tomorrow is not promised.jpg";
+arrayImg[7] = "cant stop thinking.jpg";
+arrayImg[8] = "dies doesn't mean dead.jpg";
+arrayImg[9] = "leader.jpg";
+arrayImg[10] ="don't wait for the right person.jpg";
 
-function expand1(){
-	var a = document.getElementById("organizations");	
-	if (counter%2 == 0) {
-		a.style.display='block';
-		// document.getElementById("button2").innerHTML = "Hide";
-	} else {
-		a.style.display='none';
-		// document.getElementById("button2").innerHTML = "Organizations We Support";
-	}	
-counter+=1;
-}
 
-function expand2(){
-	var a = document.getElementById("fundraiser");	
-	if (counter%2 == 0) {
-		a.style.display='block';
-		// document.getElementById("button3").innerHTML = "Hide";
-	} else {
-		a.style.display='none';
-		// document.getElementById("button3").innerHTML = "Fundraisers!";
-	}
-counter+=1;
-}
+getRandomImage(arrayImg, "");
 
-function expand3(){
-	var a = document.getElementById("journey");	
-	if (counter%2 == 0) {
-		a.style.display='block';
-		// document.getElementById("button4").innerHTML = "Hide";
-	} else {
-		a.style.display='none';
-		// document.getElementById("button4").innerHTML = "Our Journey";
-	}	
-counter+=1;
-}
-
-function expand4(){
-	var a = document.getElementById("resources");	
-	if (counter%2 == 0) {
-		a.style.display='block';
-		// document.getElementById("button5").innerHTML = "Hide";
-	} else {
-		a.style.display='none';
-		// document.getElementById("button5").innerHTML = "Resources";
-	}
-counter+=1;
+function getRandomImage(imgAr, path) {
+    path = path || 'file:///Users/facebook/Desktop/SFPC/SFPC.html'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
 }
